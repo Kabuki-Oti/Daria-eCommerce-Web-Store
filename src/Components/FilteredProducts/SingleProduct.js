@@ -49,12 +49,9 @@ const SingleProduct = () => {
                                     </h5>
                                     {/*item price*/}
                                     <h5
-                                        className="text-green-700 text-1xl font-inter font-bold tracking-normal leading-none pb-4">
+                                        className="text-[#3C1A5B] text-1xl font-inter font-bold tracking-normal leading-none pb-4">
                                         £{item.price}
                                     </h5>
-                                    <p className="text-orange-700 text-xl font-inter font-bold tracking-normal leading-none pb-4">
-                                        15% OFF
-                                    </p>
                                     {/*item text*/}
                                     <p className="text-gray-600 text-xl font-inter font-bold tracking-normal leading-none pb-4">
                                         {item.text}

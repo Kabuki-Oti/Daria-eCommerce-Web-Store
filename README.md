@@ -2,7 +2,11 @@
 
 Daria is an eCommerce Web Store built using Redux toolkit.
 
-![ Daria eCommerce Website Screenshot](./client/assets/preview.png)
+![Full Web Store](./src/README%20previews/full%20site.png)
+![Suits](./src/README%20previews/suits.png)
+![Single Item](./src/README%20previews/single%20item.png)
+![Cart](./src/README%20previews/cart.png)
+![Sign in](./src/README%20previews/sign%20in.png)
 
 ## Table of Contents
 
@@ -27,7 +31,7 @@ Daria is an eCommerce Web Store built using Redux toolkit.
 ## Project Structure
 
 - `src/assets` -  All data for the items (colour, size, price, and images).
-- `components/cart` - Logic for individual components.
+- `components` - Logic for all individual components.
 - `features/Slices`: Logic for all slices and their reducers.
 - `App.js`: React Router for client-side navigation, incorporates Redux for state management (specifically for shopping cart and user authentication).
 - `index.js` - Set up for the website by rendering the App component within a strict mode using the react-dom library, with integration of Redux for state management.

@@ -40,10 +40,9 @@ const SignIn = () => {
             <Card className="w-96">
                 <CardHeader
                     variant="gradient"
-                    color="gray"
-                    className="mb-4 grid h-28 place-items-center"
+                    className="mb-4 grid h-28 place-items-center bg-[#3C1A5B]"
                 >
-                    <Typography variant="h3" color="white">
+                    <Typography variant="h3" className="text-[#FAD744]">
                         Sign In
                     </Typography>
                 </CardHeader>
@@ -75,11 +74,11 @@ const SignIn = () => {
                     <div className="ml-2.5"></div>
                 </CardBody>
 
-                <CardFooter className="pt-0">
-                    <Button variant="gradient" fullWidth onClick={() => dispatch(signIn(values))}>
+                <CardFooter className="pt-0 ">
+                    <Button className="bg-[#3C1A5B] text-[#FAD744]" fullWidth onClick={() => dispatch(signIn(values))}>
                         Sign In
                     </Button>
-                    <Typography variant="small" className="mt-6 flex justify-center">
+                    <Typography variant="small" className="text-[#3C1A5B] mt-6 flex justify-center">
                         Image is Optional
                     </Typography>
                 </CardFooter>
