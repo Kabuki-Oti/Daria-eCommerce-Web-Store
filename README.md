@@ -20,13 +20,13 @@ Daria is an eCommerce Web Store built using Redux toolkit.
 
 ## Features
 
-- **Individual pages for each product type:** ......
+- **Individual pages for each product type:** 
 
-- **Add items to and remove items from cart** ......
+- **Add items to and remove items from cart** 
 
-- **Filter items by size, colour and price:** ......
+- **Filter items by size, colour and price:** 
 
-- **Login into account and add profile photo:** ......
+- **Login into account and add profile photo:** 
 
 ## Project Structure
 

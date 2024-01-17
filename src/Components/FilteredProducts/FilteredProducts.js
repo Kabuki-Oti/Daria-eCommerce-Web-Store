@@ -10,24 +10,12 @@ import Footer from "../Footer/Footer";
 
 const FilteredProducts = () => {
 
-    // const [loading, setLoading] = useState(true);
-
     const products = useSelector((state) => state.products.FilteredProducts);
     const { type } = useParams();
 
     console.log("products", products);
     console.log("params", type);
     console.log("type:", type);
-
-    // useEffect(() => {
-    //     if (products.length > 0) {
-    //         setLoading(false);
-    //     }
-    // }, [type, products]);
-
-    // if (loading) {
-    //     return <p>Loading...</p>;
-    // };
 
     const colorButtons = Array.from(new Set(products.flatMap((product) => product.color)));
     const sizeButtons = Array.from(new Set(products.flatMap((product) => product.size)));

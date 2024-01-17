@@ -34,7 +34,6 @@ const NavBar = () => {
     const dispatch = useDispatch();
 
     return (
-        // className="fixed top-0 bg-white w-full z-50"
         <div>
 
             <div className="bg-[#3C1A5B] p-4 w-full flex justify-around"> {/*promotion banner*/}
